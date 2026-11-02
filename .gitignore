@@ -1,0 +1,38 @@
+# ========================
+# BACKEND - Python / Django
+# ========================
+backend/.env
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/staticfiles/
+backend/media/
+backend/*.log
+backend/db.sqlite3
+
+# ========================
+# FRONTEND - Node / React
+# ========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# ========================
+# OS / EDITOR
+# ========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/settings.json
+.idea/
+
+# ========================
+# MIGRATIONS (keep initial, gitignore generated)
+# ========================
+# Uncomment if you want to exclude all migrations:
+# backend/**/migrations/*.py
+# !backend/**/migrations/__init__.py
